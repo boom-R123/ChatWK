@@ -98,7 +98,7 @@
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
-      howpublished = {\url{https://github.com/boom-R123/ChatWK}},
+      howpublished = {https://github.com/boom-R123/ChatWK},
 }
 
 ```
