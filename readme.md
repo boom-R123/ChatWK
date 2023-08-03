@@ -5,7 +5,7 @@
 ## 介绍
 以ChatGPT、ChatGLM、Llama等为代表的大语言模型（Large Language Model, LLM）在各种自然语言任务取得了惊人的表现。但是大模型仍然有很多明显的缺陷：(1)如果直接使用大模型进行知识问答，知识以参数的形式隐式地存储在模型中，我们不能保证模型输出答案的准确性，也不能实时地更新知识; (2)LLM存在的幻觉问题，对于一些他无法回答的问题，他也能"一本正经地胡说八道", 使得其生成的答案的可信度较低。
 
-为此，我们现推出**ChatWK**框架，其在[REAT-LLM](https://github.com/RUC-GSAI/YuLan-IR/tree/main/RETA-LLM)的基础上进行了一系列的改进和扩充，具备以下功能:
+为此，我们现推出**ChatWK**框架(short for Chat with knowledge)，其在[REAT-LLM](https://github.com/RUC-GSAI/YuLan-IR/tree/main/RETA-LLM)的基础上进行了一系列的改进和扩充，具备以下功能:
 - 🚀 支持ChatGPT、Chatglm、Chatglm2、Llama等模型的使用。
 - 🚀 支持构建本地知识库(类似langchain)或者使用bing search api获取外部知识，为模型的回答提供参考材料，减少幻觉问题。
 - 🚀 检索本地知识库时支持使用稀疏索引和稠密索引两种方式。
@@ -77,6 +77,13 @@
 ![RETA-LLM case](./resource/case2.jpg)
 
 
+## 团队介绍
+
+本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
+
+团队成员：
+- [boom-R123](https://github.com/boom-R123)
+- [michael-wzhu](https://github.com/michael-wzhu)
 
 
 ## 致谢
