@@ -91,19 +91,6 @@
 ## 团队介绍
 本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
 
-## Citation
-如果你使用了本项目的模型，数据或者代码，请声明引用：
-
-```bash
-@misc{zheng2023ChatWK,
-      title={ChatWK: Chat with Knowledge}, 
-      author={Zheng Huanran},
-      year={2023},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {https://github.com/boom-R123/ChatWK},
-}
-```
 
 
 
