@@ -88,6 +88,8 @@
 - [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)
 
 
+## 团队介绍
+本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
 
 ## Citation
 如果你使用了本项目的模型，数据或者代码，请声明引用：
@@ -101,7 +103,6 @@
       journal = {GitHub repository},
       howpublished = {https://github.com/boom-R123/ChatWK},
 }
-
 ```
 
 
