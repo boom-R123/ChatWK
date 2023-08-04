@@ -1,4 +1,4 @@
-name: retallm
+name: ChatWK
 channels:
   - conda-forge
   - defaults
