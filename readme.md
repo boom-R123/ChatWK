@@ -13,7 +13,7 @@
 
 于此同时，我们还开源了相关的数据集和模型，便于用户在本地快速构建属于自己的知识问答机器人（量化之后10G显存即可使用）。
 - 🚀 开源[WebCPM_WK](https://huggingface.co/datasets/ZHR123/WebCPM_WK)数据集。我们对WebCPM中的pipeline数据进行了二次处理，构建了WebCPM_WK数据集。该数据集主要的目的是提高模型的两个能力：1.给定问题和文档，能够抽取文档中与问题相关知识的能力。2.给定参考材料和问题，能够根据参考材料回答问题的能力。
-- 🚀 开源[Chatglm2_WK](https://huggingface.co/ZHR123/Chatglm2_WK)模型。该模型是以Chatglm2-6B为主干，采用Lora高效参数微调方法，基于[WebCPM_WK](https://huggingface.co/datasets/ZHR123/WebCPM_WK)数据集进行微调后的模型。
+- 🚀 开源[Chatglm2_WK](https://huggingface.co/ZHR123/Chatglm2_WK)模型。该模型是以Chatglm2-6B为主干，采用Lora高效参数微调方法，基于[WebCPM_WK](https://huggingface.co/datasets/ZHR123/WebCPM_WK)数据集进行微调后的模型。从[示例](./examples.json)中可以看出，基于相同的参考材料，Chatglm2_WK的回答比Chatglm2更加完整、准确并且忠实于参考材料。
 
 
 
