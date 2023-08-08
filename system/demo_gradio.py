@@ -6,7 +6,6 @@ import time
 import urllib.request
 import sys
 sys.path.append("/")
-import platformctrl_pipeline as platformctrl
 import json
 from typing import List, Optional, Tuple, Union
 from config import *
