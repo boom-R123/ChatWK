@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_chat import message
-import platformctrl_pipeline as platformctrl
 st.set_page_config(
     page_title="RETALLM",
     page_icon=":robot:"
