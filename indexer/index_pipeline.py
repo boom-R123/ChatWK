@@ -159,7 +159,7 @@ class Index_Builder:
         if not check_dir(dam_path):
             warnings.warn("Overwrite trained DAM module!", UserWarning)
         if self.language == "zh":
-            init_model = "../DAM-bert_base-mlm-dureader"
+            init_model = "jingtao/DAM-bert_base-mlm-dureader"
         else:
             init_model = "jingtao/DAM-bert_base-mlm-msmarco"
         training_args = ["--nproc_per_node", "1",
